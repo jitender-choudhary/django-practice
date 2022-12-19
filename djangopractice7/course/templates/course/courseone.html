@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'css/some.css' %}" />
+    <link rel="stylesheet" href="{% static 'course/css/styles.css' %}" />
+    <title>Course</title>
+  
+    <img src="{% static 'course/images/preesha.jpg' %}" alt="Preesha" />
+    <img src="{% get_static_prefix %}course/images/preesha.jpg" alt="Preesha" />
+    <form action="">
+      <input type="button" value="Click me" onclick="disp()" />
+    <script src="{% static 'course/js/all.js' %}" ></script>
+  </head>
+  <body>
+	<h1>django course</h1>
+  </body>
+</html>

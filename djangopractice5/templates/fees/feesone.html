@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body> 
+    <h1> example </h1>
+	  {% if nm and st %}
+    <h1> {{st}} seats are availabe for {{nm}} course</h1>
+    {% endif %}
+    h1> example </h1>
+	  {% if nm or st %}
+    <h1> {{st}} seats are availabe for {{nm}} course</h1>
+    {% endif %}
+    h1> example </h1>
+	  {% if not st %}
+    <h1> seats are not available</h1>
+    {% endif %}
+  </body>
+</html>
